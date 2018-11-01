@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildStamper", "BuildStamper\BuildStamper.csproj", "{E2402289-9399-46F8-9531-70AA9BC85AE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildStamperTest", "BuildStamperTest\BuildStamperTest.csproj", "{92F0EEBA-569A-4362-8F45-F2B966C0103A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestFiles", "TestFiles", "{04A03363-A080-42CF-AE39-1589E4D7D43C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CsprojProject", "CsprojProject", "{8009369B-D85C-4913-9816-F2A32F0C2F19}"
+	ProjectSection(SolutionItems) = preProject
+		TestFiles\CsprojProject\TestProjectFile.csproj = TestFiles\CsprojProject\TestProjectFile.csproj
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AssemblyInfoProject", "AssemblyInfoProject", "{5DB4E429-3A37-46E1-A142-F5B34379C7B2}"
+	ProjectSection(SolutionItems) = preProject
+		TestFiles\AssemblyInfoProject\TestAssemblyInfo.cs = TestFiles\AssemblyInfoProject\TestAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2402289-9399-46F8-9531-70AA9BC85AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2402289-9399-46F8-9531-70AA9BC85AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2402289-9399-46F8-9531-70AA9BC85AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2402289-9399-46F8-9531-70AA9BC85AE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92F0EEBA-569A-4362-8F45-F2B966C0103A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F0EEBA-569A-4362-8F45-F2B966C0103A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F0EEBA-569A-4362-8F45-F2B966C0103A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F0EEBA-569A-4362-8F45-F2B966C0103A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8009369B-D85C-4913-9816-F2A32F0C2F19} = {04A03363-A080-42CF-AE39-1589E4D7D43C}
+		{5DB4E429-3A37-46E1-A142-F5B34379C7B2} = {04A03363-A080-42CF-AE39-1589E4D7D43C}
+	EndGlobalSection
+EndGlobal
